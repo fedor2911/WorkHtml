@@ -2,7 +2,7 @@ h2 {
     color: aqua;
 }
 
-div {
+/* div {
     width: 100px;
     height: 100px;
     background-color: blue;
@@ -16,11 +16,19 @@ div {
 
 #newBlok{
     color: yellow;
+} */
+
+
+a:link {
+    color: rgb(12, 166, 35)
+    text-decoration: none;
 }
 
 
-
-
+a:link {
+    color: rgb(12, 166, 35)
+    text-decoration: none;
+}
 
 
 
