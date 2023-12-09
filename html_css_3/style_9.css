@@ -4,5 +4,5 @@ body {
 div {
     /* background-color: coral;
     background-color: rgb(132, 0, 255); */
-    background: linear-gradient(to top, black, cyan);
+    background: linear-gradient(to top, rgb(0, 0, 0), cyan);
 }
