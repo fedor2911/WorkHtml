@@ -1,18 +1,16 @@
 body {
     font-family: Tahoma, sans-serif;
     color: yellow;
-    font-size: 60px; /* Размер шрифта */
+    font-size: 40px;
     font-family: 'Viner Hand ITC', Courier, monospace; 
-    font-weight: 900; 
+    font-weight: 901; 
     font-style: italic;
-    text-decoration: overline; 
     text-indent: 30px;
-    
+    text-decoration: underline;
 }
 
 
 div {
         background: linear-gradient(45deg, red, blue);
         opacity: .4;
-
 }
