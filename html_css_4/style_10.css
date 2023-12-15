@@ -1,15 +1,18 @@
 body {
-    @font-face {
-        font-family: 'Viner Hand ITC';
-        /* src: url(fonts/Aguante-Regular.otf); */
-        font-weight: normal;
-        font-style: normal;
-    }
+    font-family: Tahoma, sans-serif;
+    color: yellow;
+    font-size: 60px; /* Размер шрифта */
+    font-family: 'Viner Hand ITC', Courier, monospace; 
+    font-weight: 900; 
+    font-style: italic;
+    text-decoration: overline; 
+    text-indent: 30px;
+    
 }
 
 
+div {
+        background: linear-gradient(45deg, red, blue);
+        opacity: .4;
 
-/* body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 60px;
-    color: crimson; */
+}
