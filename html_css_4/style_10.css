@@ -1,7 +1,7 @@
 body {
     @font-face {
         font-family: 'Viner Hand ITC';
-        src: url(fonts/Aguante-Regular.otf);
+        /* src: url(fonts/Aguante-Regular.otf); */
         font-weight: normal;
         font-style: normal;
     }
@@ -9,10 +9,7 @@ body {
 
 
 
-body {
+/* body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 60px; /* Размер шрифта */
-    /* font-family: 'Courier New', Courier, monospace; Тип шрифта */
-    /* font-weight: 900; Толщина шрифта */
-    /* font-style: italic; Курсив */
-    color: crimson; Цвет шрифта
+    font-size: 60px;
+    color: crimson; */
