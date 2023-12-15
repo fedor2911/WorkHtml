@@ -8,11 +8,11 @@ body {
     text-indent: 30px;
     text-decoration: underline;
 }
-#dfd {
+#aaa {
     background-color: rgb(0, 0, 0);
 }
 
 div {
-        background: linear-gradient(45deg, red, blue);
-        opacity: .4;
+    background: linear-gradient(45deg, red, blue);
+    opacity: .4;
 }
