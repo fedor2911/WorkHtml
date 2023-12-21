@@ -1,11 +1,93 @@
-/* div {
-    margin: 15px;
-    padding: 11px;
-    border: 3px dotted red;
-}
-#три{
+/* div { */
+    /* margin: 15px; Внешний отступ */
+    /* padding: 11px; Внутренний отступ */
+    /* border: 3px solid red; Граница шириной 3 пикселя сплошной красной линией */
+/* } */
 
+/* .third { */
+    /* margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px; */
+    /* margin: 30px 20px 15px 25px;
+    padding: 11px;
+    border-top: 5px dotted lawngreen;
+    border-bottom: 5px double brown;
+    border-left: 5px groove yellow;
+    border-right: 5px dashed purple; */
+    /* border-radius: 30px; Задаёт радиус границы */
+    /* border-radius: 15px 30px 5px 40px; */
+
+    /* border: 3px solid red;  */
+    /* border: 3px dotted red; Линия в виде последовательности точек */
+    /* border: 3px double red; Границы в виде двух параллельных линий */
+    /* border: 3px dashed red; Штриховая линий */
+    /* border: 3px groove red; Гриница с трехмерным эффектом */
+    /* border: 3px inset red; Гриница вдавленная внутрь */
+    /* border: 3px outset red; Обратный inset */
+    /* border: 3px ridge red; Гриница с трехмерным эффектом */
+/* } */
+
+
+/* div { */
+    /* width: 128px;
+    height: 96px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    background-color: #eee; */
+    /* box-shadow: hoffset voffset blur spread color inset */
+    /* box-shadow: 10px 4px 10px 3px #888; */
+/* } */
+
+
+/* .image {
+    float: left;
+    margin: 10px;
+    margin-top: 0px;
+    width: 400px;
+    height: 300px;
+}
+
+.sidebar {
+    float: right;
+    border: 2px solid #ccc;
+    background-color: #eee;
+    width: 150px;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+} */
+/* 
+.article1 {
+    width: 300px;
+    height: 150px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    overflow: auto;
+}
+
+.article2 {
+    width: 300px;
+    height: 150px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    overflow: hidden;
 } */
 
 
+div {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
 
+    background-color: #eee;
+
+    background-image: radial-gradient(lime, green);
+}
+
+p {
+    margin: 0;
+    padding-top: 60px;
+    text-align: center;
+    color: #eee;
+}
