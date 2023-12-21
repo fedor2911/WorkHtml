@@ -4,6 +4,7 @@ div {
     margin: 15px;
     border: 1px solid #ffa5a5;
     overflow: auto;
+    float: right;
 }
 
 #bim{
