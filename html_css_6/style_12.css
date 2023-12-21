@@ -1,6 +1,6 @@
 #image {
-    width:auto;
-    height: auto;
+    width: 500px;
+    height: 300px;
     border: 4px dotted rgb(0, 0, 0);
     box-shadow: 10px 4px 10px 3px #07c699;
 }
