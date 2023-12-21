@@ -1,18 +1,20 @@
-div {
+#image {
     width: 300px;
     height: 150px;
     margin: 15px;
-    border: 1px solid #ffa5a5;
-    overflow: auto;
+    border: 4px dotted rgb(0, 0, 0);
     float: left;
 }
 
 #bim{
 
+    border-left: 5px double rgb(255, 0, 238);
+    border-bottom: 3px dotted rgb(255, 0, 25);
+    border-right: 5px dashed purple;
+    border-bottom: 5px double brown;
     float: right;
     width: 300px;
     height: 150px;
     margin: 15px;
-    border: 1px solid #94f5f4;
     overflow: auto;
 }
