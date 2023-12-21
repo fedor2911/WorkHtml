@@ -4,11 +4,12 @@ div {
     margin: 15px;
     border: 1px solid #ffa5a5;
     overflow: auto;
-    float: right;
+    float: left;
 }
 
 #bim{
-    float: left;
+
+    float: right;
     width: 300px;
     height: 150px;
     margin: 15px;
