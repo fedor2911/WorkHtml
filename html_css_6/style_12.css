@@ -1,3 +1,16 @@
-div{
-    
+div {
+    width: 300px;
+    height: 150px;
+    margin: 15px;
+    border: 1px solid #ffa5a5;
+    overflow: auto;
+}
+
+#bim{
+    float: left;
+    width: 300px;
+    height: 150px;
+    margin: 15px;
+    border: 1px solid #94f5f4;
+    overflow: auto;
 }
