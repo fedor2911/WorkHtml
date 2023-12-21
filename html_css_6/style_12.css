@@ -1,8 +1,7 @@
 #image {
-    width: 100px;
-    height: 145px;
+    width:auto;
+    height: auto;
     border: 4px dotted rgb(0, 0, 0);
-    float: left;
     box-shadow: 10px 4px 10px 3px #07c699;
 }
 
@@ -12,9 +11,12 @@ div{
     border-bottom: 3px dotted rgb(255, 0, 25);
     border-right: 5px dashed purple;
     border-bottom: 5px double brown;
+
     float: right;
-    width: 300px;
-    height: 150px;
+
+    width: 500px;
+    height: 300px;
     margin: 15px;
+
     overflow: auto;
 }
