@@ -1,0 +1,30 @@
+div{
+    margin: 10px;
+    border: 1px solid darkorange;
+}
+
+#heater {
+    background-color: cornsilk;
+}
+
+#left_sidebar{
+    background-color: cornsilk;
+    float: left;
+    width: 150px;
+}
+
+#left_sidebar{
+    background-color: cornsilk;
+    float: left;
+    width: 150px;
+}
+
+#main {
+    background-color: #eee;
+    height: 200px;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+#footer {
+    background-color: #ccc;
+}
