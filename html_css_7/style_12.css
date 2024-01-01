@@ -1,21 +1,23 @@
-div{
+/* div {
     margin: 10px;
-    border: 1px solid darkorange;
+    border: 1px solid black;
+    font-size: 20px;
+    height: 80px;
 }
 
-#heater {
-    background-color: cornsilk;
+#header {
+    background-color: #ccc;
 }
 
-#left_sidebar{
-    background-color: cornsilk;
+#left_sidebar {
+    background-color: #ddd;
     float: left;
     width: 150px;
 }
 
-#left_sidebar{
-    background-color: cornsilk;
-    float: left;
+#right_sidebar {
+    background-color: #ddd;
+    float: right;
     width: 150px;
 }
 
@@ -25,6 +27,148 @@ div{
     margin-left: 170px;
     margin-right: 170px;
 }
+
 #footer {
     background-color: #ccc;
+} */
+
+
+
+/* div {
+    margin: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    height: 80px;
 }
+
+#header {
+    background-color: #ccc;
+}
+
+
+#right_sidebar {
+    background-color: #ddd;
+    float: right;
+    width: 150px;
+}
+
+#main {
+    background-color: #fafafa;
+    height: 200px;
+    margin-right: 170px;
+}
+
+#menu {
+    background-color: #ddd;
+    float: left;
+    width: 160px;
+}
+
+#content {
+    background-color: #eee;
+    margin-left: 180px;
+}
+
+#footer {
+    background-color: #ccc;
+} */
+
+
+
+/* Простейший макет */
+
+
+/* body, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+}
+
+#header {
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+    height: 80px;
+}
+
+#wrapper {
+    background-color: #ddd;
+}
+
+#menu {
+    float: left;
+    width: 150px;
+}
+
+#main {
+    background-color: #f7f7f7;
+    border-left: 1px solid #ccc;
+    margin-left: 150px;
+    padding: 10px;
+}
+
+#footer {
+    border-top: 1px solid #ccc;
+    background-color: #dedede;
+} */
+
+
+
+/* Создание панели навигации */
+
+/* Вертикальная */
+
+/* ul.nav {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+ul.nav a {
+    display: block;
+    width: 7em;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-top: 1px dashed #333;
+    border-right: 1px dashed #333;
+    border-left: 5px solid #333;
+    text-decoration: none;
+    color: #333;
+}
+
+ul.nav li:last-child a {
+    border-bottom: 1px dashed #333;
+}*/
+
+
+/* Горизонтальня */
+
+
+/* ul.nav {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.nav li {
+    display: inline;
+}
+
+ul.nav a {
+    display: inline-block;
+    width: 5em;
+    padding: 10px;
+    margin: 0 5px;
+    background-color: #f4f4f4;
+    border: 1px dashed #333;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
+
+ul.nav a:hover {
+    background-color: #333;
+    color: #f4f4f4;
+} */
