@@ -1,4 +1,4 @@
-/* div {
+div {
     background-color: #ccc;
     width: 120px;
     height: 120px;
@@ -18,16 +18,16 @@
 }
 
 .doubleScale {
-    /* transform: scale(2); */
-    /* transform: scaleX(2); */
-    /* transform: scale(2); */
-    /* transform: translate(500px, 300px); */
-    /* transform: translate(-250px, 150px); */
-    /* transform: skew(45deg, 0); */
-    /* transform: skew(0, 45deg); */
+    transform: scale(2); 
+    transform: scaleX(2);
+    transform: scale(2);
+    transform: translate(500px, 300px);
+    transform: translate(-250px, 150px);
+    transform: skew(45deg, 0);
+    transform: skew(0, 45deg);
 
 
-/* div {
+ div {
     background-color: #ccc;
     width: 100px;
     height: 100px;
@@ -49,7 +49,7 @@
 .transform3 {
     transform-origin: right bottom;
     transform: rotate(-45deg);
-} */
+}
 
 
 /* div { */
@@ -93,7 +93,7 @@
     /* }
 } */
 
-
+/* 
 @keyframes colorAnim {
     from {
         background-color: red;
@@ -123,7 +123,7 @@ div:hover {
     animation-duration: 2s;
 }
 
-
+ */
 
 /* 
 @keyframes colorAnim {
