@@ -1,0 +1,51 @@
+@keyframes colorAnim {
+    from {
+        background-color: rgb(255, 187, 0);
+    }
+
+    25% {
+        background-color: rgb(255, 221, 0);
+    }
+
+    50% {
+        background-color: rgb(221, 255, 0);
+    }
+
+    75% {
+        background-color: rgb(140, 255, 0);
+    }
+
+    to {
+        background-color: rgb(255, 187, 0);
+    }
+
+    from {
+        transform: rotate(0deg);
+      }
+    
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+div {
+    width: 100px;
+    height: 100px;
+    margin: 40px 30px;
+    border: 2px solid #ff00f2;
+    background-color: #000000;
+    display: inline-block;
+    transition: transform .3s; 
+}
+
+div:hover {
+    transform: scale(1.5);
+    animation-name: colorAnim;
+    animation-iteration-count: infinite;
+}
+
+#ses:hover{
+    animation-duration: 3s;
+}
+
+
