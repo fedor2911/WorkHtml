@@ -35,7 +35,7 @@ div {
     border: 2px solid #ff00f2;
     background-color: #000000;
     display: inline-block;
-    transition: transform .3s; 
+    transition: transform .3s;
 }
 
 div:hover {
