@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="fon.css">
+    <title>Document</title>
+</head>
+    <body>
+        <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%">
+            <defs>
+                <pattern id="pattern" width="9" height="9" patternUnits="userSpaceOnUse">
+                    <circle r="1" />
+                </pattern>
+                <filter id="digitalMagic">
+                    <feTurbulence baseFrequency=".05">
+                        <animate attributeName="baseFrequency" values="0.2; 0.21; 0.2" dur="500s" begin="0s" repeatCount="indefinite" />
+                    </feTurbulence>
+                    <feComposite in2="SourceGraphic" operator="in" />
+                    <feMorphology operator="dilate" radius="3" />
+                    <feColorMatrix values="0 0 0 9 -2 0 0 0 9 -.25 0 0 0 9 0 0 0 0 9 0" />
+                    <feColorMatrix values="-.3  -.4 -.17 0 1 -.5 .05 -.15 0 .12 -.37 -.45 -.13 0 1 0.5 0 0 0 1" />
+                    <feColorMatrix values="-.3  -.4 -.17 0 1 -.5 .05 -.15 0 .12 -.37 -.45 -.13 0 1 0.5 0 0 0 1" />
+                    <feColorMatrix values="-.3  -.4 -.17 0 1 -.5 .05 -.15 0 .12 -.37 -.45 -.13 0 1 -1 0 0 0 1" />
+                    <feColorMatrix values="-.3  -.4 -.17 0 1 -.5 .05 -.15 0 .12 -.37 -.45 -.13 0 1 -1.4 0 0 0 1" />
+                    <feColorMatrix values="-.3  -.4 -.17 0 1 -.5 .05 -.15 0 .12 -.37 -.45 -.13 0 1 0.5 0 0 0 1" />
+                </filter>
+                <linearGradient id="grad" gradientTransform="rotate(90)">
+                    <stop offset="15%" stop-color="#000000" stop-opacity="1" />
+                    <stop offset="100%" stop-color="#ff62ff" stop-opacity="0.1" />
+                </linearGradient>
+            </defs>
+            <rect width="100%" height="120%" fill="url(#pattern)" filter="url(#digitalMagic) brightness(1000%) invert(100%) hue-rotate(195deg)" />
+            <rect width="100%" height="100%" fill="url(#grad)" />
+        </svg>
+        
+    </body>
+</html>
